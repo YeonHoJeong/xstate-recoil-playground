@@ -27,7 +27,7 @@ XState 예제를 통해 공부를 좀 해보고 싶으니 Playground 형태로 �
 1. Non-Serialized Data를 담을 수 있는가?
 2. XState의 상태 업데이트 내부 로직은 어떤가?
 3. Recoil과 함께 사용할만한가?
-   => Jotai는 XState를 지원하더라.. [Jotai 만든 아저씨가 찍은 강의 비슷한 영상이 있다.](https://egghead.io/courses/complex-state-management-in-react-with-jotai-and-xstate-3be0a740)
-   => 사실 과도한 라이브러리 사용이 아닌가 싶기도 하다. 그래서 XState를 먼저 사용해 보는 것도 있고...
-   => 어차피 내가 생각한 역할은 정해져있기 때문에 큰 충돌은 나지 않을 것으로 보이긴 함
-   => 일반적인 웹 페이지와 같은 상태 사용이 아니기 때문도 있음, 그러나 웹 환경은 계속 진화되기 때문에 오늘 내가 고민한 것들이 정답은 아니더라도 언젠가는 유의미 해질 것이라 생각함
+   - Jotai는 XState를 지원하더라.. [Jotai 만든 아저씨가 찍은 강의 비슷한 영상이 있다.](https://egghead.io/courses/complex-state-management-in-react-with-jotai-and-xstate-3be0a740)
+   - 사실 과도한 라이브러리 사용이 아닌가 싶기도 하다. 그래서 XState를 먼저 사용해 보는 것도 있고...
+   - 어차피 내가 생각한 역할은 정해져있기 때문에 큰 충돌은 나지 않을 것으로 보이긴 함
+   - 일반적인 웹 페이지와 같은 상태 사용이 아니기 때문도 있음, 그러나 웹 환경은 계속 진화되기 때문에 오늘 내가 고민한 것들이 정답은 아니더라도 언젠가는 유의미 해질 것이라 생각함
