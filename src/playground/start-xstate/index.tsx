@@ -8,9 +8,11 @@ function StartXState() {
 
   return (
     <>
+      <div>aaaaa</div>
+      <div>test</div>
+      <div>bbbbb</div>
       <Stack direction={"row"} justifyContent={"space-between"}>
         <Button onClick={() => send({ type: "INC" })}>INC</Button>
-        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
       </Stack>
       <Stack>
         <Input
@@ -20,6 +22,98 @@ function StartXState() {
           value={current.context.count}
         />
         count state : {current.context.count}
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
+        <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
+        <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
+        <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
+        <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button> <Button onClick={() => send({ type: "INC" })}>INC</Button>
+        <Button onClick={() => send({ type: "DEC" })}>DEC</Button>
       </Stack>
     </>
   );
