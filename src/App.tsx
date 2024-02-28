@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <Stack gap={"10px"}>
-        <Link to={`/playground/start-xstate`}>
+        <Link to={`/playground/ex-01-start-xstate`}>
           <Button>start-xstate</Button>
         </Link>
-        <Link to={`/`}>
-          <Button disabled>coming</Button>
+        <Link to={`/playground/ex-02-what-is-actor`}>
+          <Button>what-is-actor</Button>
         </Link>
       </Stack>
     </>
