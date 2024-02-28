@@ -39,3 +39,19 @@ Actor Logic은 Actor가 이벤트를 받았을 때 어떻게 행동흘 취할 �
 Actor Logic Creator를 통해 만들 수 있다니 한번 구성해보자.
 
 interpreter가 로직을 이해하는 역할을 하며, effects는 이에따른 효과를 의미한다.
+
+React환경에서 사용하려면 @xstate/react를 사용해야하는데, 사용하는 방법이 은근 차이가 좀 있으니 따로 확인을 또 해주는 것이 좋다... v4랑 v5 햇갈리면 안됨...!!
+
+공통적으로 사용되는 거라면 xstate의 machine은 공용으로 써야하는 것으로 보인다. 이는 시각화 툴을 이용해서 machine을 구성하는 경우도 있으므로 그럴듯하다.
+다만 @xstate/react에서 사용할 수 있는 hooks 형태로 제공하는 기능은 react에 맞게 약간의 커스터마이징을 해야하는 것으로 보인다.
+
+기존 state 뿐만 아니라 ref도 제공하는 것으로 보인다.
+
+useActor와 useActorRef가 있다.
+
+이 둘의 차이는 useActor는 Actor Logic을 통해 Actor를 생성함으로서 state를 사용할 수 있다.
+이는 React 컴포넌트의 라이프사이클에 따른다.
+
+useActorRef는 Machine을 사용하여 엑터를 따로 생성하지 않는다. 즉, React 컴포넌트의 라이프사이클을 따르지 않는다.
+
+이번 예제는 useActor를 사용하여 Toggle을 통해 Lottie Animation을 조종해볼것이다.
