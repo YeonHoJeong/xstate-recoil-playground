@@ -54,4 +54,18 @@ useActor와 useActorRef가 있다.
 
 useActorRef는 Machine을 사용하여 엑터를 따로 생성하지 않는다. 즉, React 컴포넌트의 라이프사이클을 따르지 않는다.
 
-이번 예제는 useActor를 사용하여 Toggle을 통해 Lottie Animation을 조종해볼것이다.
+## 이번 예제는 useActor를 사용하여 Toggle을 통해 Lottie Animation을 조종해볼것이다.
+
+---
+
+24-03-04
+Xstate가 FSM이라는 것을 생각하고 해야겠다..
+뭔가 막힌 느낌이다. 분명 어려운 것은 아닐텐데
+v5 오면서 뭔가 많이 바뀐 것으로 보이는데, 이에따라 기존의 예제들이 레거시화 되었다.
+
+---
+
+24-03-06
+play-stop 의 상태만 적용시켜보았다.
+function machine(reverse, speed 등등..) 은 어떻게 구성할지 생각해봐야겠다
+ex-02에서 살을 좀 붙여보며 다음 예제로 넘어가야겠다.
