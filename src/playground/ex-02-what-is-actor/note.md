@@ -69,3 +69,4 @@ v5 오면서 뭔가 많이 바뀐 것으로 보이는데, 이에따라 기존의
 play-stop 의 상태만 적용시켜보았다.
 function machine(reverse, speed 등등..) 은 어떻게 구성할지 생각해봐야겠다
 ex-02에서 살을 좀 붙여보며 다음 예제로 넘어가야겠다.
+lottie interactivity hooks가 있던데 둘이 연동해보면 재밌을듯
